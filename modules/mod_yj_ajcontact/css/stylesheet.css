@@ -1,0 +1,186 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Youjoomla.com 
+|| # ---------------------------------------------------------------- # ||
+|| # Copyright ©2006-2009 Youjoomla.com. All Rights Reserved.           ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| # ---------------- THIS IS NOT FREE SOFTWARE ---------------- #      ||
+|| # http://www.youjoomla.com | http://www.youjoomla.com/license.html # ||
+|| #################################################################### ||
+\*======================================================================*/
+#yjajaxcontact_box {
+	text-align:left;
+	margin:0;
+	padding:0;
+	margin:0 auto;
+	position:relative;
+}
+#yjajaxcontact_box div {
+	padding: 0px 0px;
+}
+#yjajaxcontact_box #email,
+#yjajaxcontact_box #first_name,
+#yjajaxcontact_box textarea {
+	border:0;
+	padding:8px 8px;
+	margin:0 0 0px 0;
+	font-size:11px;
+	border:1px solid #eee;
+}
+.spamcheck {
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	margin:5px 0 5px 0;
+	font-size:10px;
+	font-weight:bold;
+}
+.spamcheck label{
+	font-size:11px;
+}
+.spamcheck input {
+	border:0;
+	margin:0 0px 0 10px;
+	border:1px solid #eee;
+	margin:0;
+	padding:0;
+	width:60px;
+}
+span.submit {
+	height:34px;
+	line-height:34px;
+	display:block;
+	clear:both;
+	float:left;
+	clear:right;
+	padding:0 0 0 10px;
+	margin:0px 0 0 0;
+	background: url(../images/submit_l.gif) no-repeat left center;
+}
+span.submit .submitb {
+	display: block;
+	height:34px;
+	line-height:34px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:0 10px 0 0px;
+	border:0;
+	color:#fff;
+	background: url(../images/submit.gif) no-repeat right center;
+	cursor:pointer;
+}
+.lables {
+	font-size:10px;
+	font-weight:bold;
+	display:block;
+	margin:0 0 3px 0;
+}
+#yjajaxcontact_box .msg {
+	margin:0 0 0px 0;
+}
+#log {
+	float:left;
+	margin:0px 0 0 0;
+}
+#log_res {
+	height:34px;
+	width:100%;
+}
+#log_res.ajax-loading {
+	background: url(../images/runner.gif) no-repeat right center;
+	width:100%;
+}
+#log .errormsg,
+#log .thnxmsg {
+	font-weight:bold;
+	color:#F00;
+	width:100%;
+	overflow:hidden;
+	float:left;
+	height:34px;
+	padding:0 0 0 5px;
+}
+#log .thnxmsg {
+	font-weight:bold;
+	color: #093;
+}
+/***** FormCheck *****/
+.tipsbox {
+	width:250px;
+	text-align:left;
+	font-size:10px;
+	z-index:10000
+}
+.tipsbox .tipsbox_top_left {
+	background : url(../images/top_left.png) no-repeat;
+}
+.tipsbox .tipsbox_top {
+	background : url(../images/top.png) repeat-x;
+	height : 17px;
+}
+.tipsbox .tipsbox_top_right {
+	background : url(../images/top_right.png) no-repeat;
+}
+.tipsbox .tipsbox_left {
+	background : url(../images/left.png) repeat-y;
+	width : 17px;
+}
+.tipsbox .tipsbox_right {
+	background : url(../images/right.png) repeat-y;
+	width : 22px;
+}
+.tipsbox .tipsbox_bottom_left {
+	background : url(../images/bottom_left.png);
+}
+.tipsbox .tipsbox_mark {
+	background : url(../images/mark.png) no-repeat;
+	height : 36px;
+}
+.tipsbox .tipsbox_bottom_right {
+	background : url(../images/bottom_right.png);
+}
+.tipsbox .tipsbox_inner,
+.tipsbox .tipsbox_inner_ie6 {
+	background : url(../images/inner.png);
+}
+.tipsbox .tipsbox_inner_ie6 {
+	padding : 4px;
+}
+.tipsbox .tipsbox_error {
+	background : url(../images/error.png) no-repeat;
+	margin-top: 5px;
+	float: left;
+	clear: left;
+}
+.tipsbox_inner a.close {
+	float: right;
+	background: url(../images/close.png) no-repeat;
+	position: relative;
+	margin-left: 5px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.tipsbox p,
+.tipsbox {
+	font-size:11px;
+	font-family: tahoma, verdana, "sans-serif";
+	margin : 0;
+	padding : 0;
+	border : 0;
+	color : #FFF;
+}
+.tipsbox p {
+	padding-left: 55px;
+	line-height: 15px;
+}
+.tipsbox p span {
+	font-size: 1em;
+	font-weight: bold;
+	color: red;
+	line-height: 35px;
+}
+#yjajaxcontact_box textarea {
+	overflow: auto;
+}

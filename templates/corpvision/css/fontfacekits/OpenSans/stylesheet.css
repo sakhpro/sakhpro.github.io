@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('OpenSans-Semibold-webfont.eot');
+    src: url('OpenSans-Semibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Semibold-webfont.woff') format('woff'),
+         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Light */
+.horiznav a{
+    font-family:'OpenSansLight', Arial, sans-serif!important;
+	font-weight:normal!important;
+	font-size:90%;
+	text-transform:uppercase;
+}
+ul.subul_main a,.top_menu .horiznav .group_holder li.haschild a{
+	font-weight:normal!important;
+	text-transform:uppercase!important;
+	font-size:85%!important;
+}
+/* Light */
+h1,h2,h3,h4,h5,h6,.article_title,.module_title,.pagetitle,
+.cvimageslider p,.template_readmore,.icon_holder p,.cvbricks .YouBricks_content a#yjbricks_getmore,
+.cvengine .yjme_item a.item_title,.cvengine .yjme_item p.item_intro,.cvengine .yjme_item a.item_readmore,
+.cvcustom p,.template_readmore2,.template_readmore3,.cvaboutus p,.cvaboutus span,span.submit .submitb,a.subCategoryMore,
+span.catItemDateCreated,span.catItemAuthor,div.catItemCategory,div.catItemHitsBlock,div.catItemCommentsLink,
+span.catItemDateModified,div.catItemRatingBlock,div.catItemTagsBlock,div.catItemReadMore a,span.itemAuthor,
+div.itemAuthorBlock span.itemAuthorUrl,div.itemAuthorBlock span.itemAuthorEmail,span.itemDateCreated,span.itemHits,
+div.itemCategory,a.itemCommentsLink,div.itemContentFooter,div.itemRatingBlock,div.pre25SocialLinks,
+div.itemTagsBlock,span.userURL,div.itemCommentsLink,.yjk2menu ul li a,a.moduleItemTitle,
+div.k2TagCloudBlock a,.button,.validate,div.k2Pagination,.yj_hover_title,.yj_hover_intro,.yj_hover_more,.yj_hover_title2,
+#mmenu_holder{
+    font-family: 'Roboto Condensed', sans-serif!important;
+	font-weight: 300!important;
+	overflow: visible!important;
+}
+
+/* Semibold */
+.cvimageslider h1 span,
+.team_holder .team_button,
+.cvcontactus .spamcheck label,
+div.itemComments ul.itemCommentsList li span.commentAuthorName,
+div.k2LatestCommentsBlock ul li span.lcUsername{
+    font-family: 'Roboto Condensed', sans-serif!important;
+	font-weight: 400!important;
+	overflow: visible!important;
+}

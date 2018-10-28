@@ -1,0 +1,738 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+html body {
+	line-height:28px;
+}
+/* grids padding */
+.yjsg_grid {
+	padding:45px 0;
+}
+#yjsgbodytop {
+	padding:0;
+}
+#yjsgbodybottom {
+	padding:5px 0;
+}
+/* article and module titles font size*/
+.article_title,
+.module_title {
+	font-size:150%;
+}
+.module_title {
+	text-transform: capitalize;
+}
+/* pathway */
+#pathway {
+	margin-bottom:20px;
+}
+/*TOP MENU RESET */
+/* flyouts */
+div.top_menu ul.subul_main,
+div.top_menu ul.subul_main.dropline,
+div.top_menu ul.subul_main {
+	margin-top:5px;
+	padding-top:0!important;
+	padding-bottom:0!important;
+}
+/* mega holder */
+div.YJSG-inner.horiznav {
+	padding-top:7px!important;
+	padding-bottom:7px!important;
+}
+/* mega haschild flyouts */
+.top_menu ul.subul_main.level2,
+.top_menu ul.subul_main.level3,
+.top_menu ul.subul_main.level4 {
+	margin-top:20px;
+}
+/* Backgrounds */
+.header_out.fixed {
+	position:fixed;
+	margin:0 auto;
+	width:100%;
+	z-index:100000;
+}
+.yjsg1_out{
+	position:relative;
+	z-index:0;
+	display:block;
+	overflow:hidden;
+	width:100%;
+}
+.yjsg1_image{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:0;
+}
+#yjsg1{
+	position:relative;
+}
+.yjsg2_bottom{
+	display:block;
+	overflow:hidden;
+	height:10px;
+}
+#footer{
+	padding:35px 0;
+}
+.yjsglogo{
+	margin-top:35px;
+}
+/* Template buttons */
+.template_readmore {
+	display:table;
+	background-size:53px 33px;
+	text-transform:uppercase;
+	font-size:180%;
+	padding:30px 70px 30px 25px;
+	margin:0;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+.template_readmore:hover {
+	background-size:53px 33px;
+}
+.template_readmore2 {
+	display:table;
+	text-transform:uppercase;
+	font-size:160%;
+	line-height:15px;
+	padding:25px 35px;
+	margin:0;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+.template_readmore3 {
+	display:table;
+	text-transform:uppercase;
+	padding:5px 15px;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+/* Border radius */
+.template_readmore,
+.cvbricks .YouBricks_content a#yjbricks_getmore,
+.cvengine .yjme_item a.item_readmore,
+.template_readmore2,
+.team_holder .team_button,
+.cvcontactus #first_name,
+.cvcontactus #email,
+.cvcontactus #message,
+.cvcontactus .spamcheck input,
+.cvcontactus span.submit,
+a.subCategoryMore,
+div.catItemReadMore a,
+ul.catItemTags li a,
+div.itemTagsBlock li a,
+form#comment-form .inputbox,
+#submitCommentButton,
+div.itemReadMore a,
+div.k2TagCloudBlock a,
+.template_readmore3 {
+	-webkit-border-radius:2px!important;
+	-khtml-border-radius:2px!important;
+	-moz-border-radius:2px!important;
+	border-radius:2px!important;
+}
+/* Extra radius */
+.readon,
+.inputbox,
+.button,
+.validate,
+input,
+#pathway .breadcrumb,
+.popbox img,
+.popboxv img,
+.add-on,
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle,
+#midblock .newsitem_tools ul {
+	-webkit-border-radius:2px!important;
+	-khtml-border-radius:2px!important;
+	-moz-border-radius:2px!important;
+	border-radius:2px!important;
+	text-shadow:none!important;
+	box-shadow:none!important
+}
+/* Header */
+.header_in {
+	margin:0 auto;
+}
+/* Menu */
+#topmenu_holder {
+	float:right;
+}
+.top_menu ul.subul_main.level1 {
+	margin-top:0!important;
+}
+.top_menu ul.subul_main li a {
+	width: auto;
+	margin:0 10px;
+}
+ul.subul_main span.yjm_has_desc,
+ul.subul_main span.yjm_has_none span.yjm_title {
+	margin-left:0;
+}
+/* Image Slider */
+.cvimageslider .YJSlide_intro {
+	top:200px;
+	bottom:auto;
+	background:none;
+}
+.cvimageslider .YJSlide_intro_in {
+	padding:0;
+	margin:0;
+}
+.cvimageslider h1 {
+	font-size:325%;
+	line-height:55px;
+	text-align:center;
+	padding:0 100px;
+}
+.cvimageslider p {
+	line-height:35px;
+	font-size:200%;
+	text-align:center;
+	padding:0 100px;
+	margin:100px 0;
+}
+.cvimageslider .template_readmore {
+	margin:0 auto;
+}
+.cvimageslider .slidearrows,
+.cvimageslider .slidearrows.slideLeft{
+	height:46px;
+}
+/* Custom icons module */
+.icon_holder {
+	display:block;
+	overflow:hidden;
+	float:left;
+	width:305px;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+.icon_holder.second {
+	margin:0 135px;
+}
+.icon_holder img {
+	display:block;
+	margin:0 auto;
+}
+.icon_holder h1 {
+	font-size:140%;
+	line-height:24px;
+	text-transform:uppercase;
+	text-align:center;
+	margin:190px 0 90px 0;
+}
+.icon_holder h1 span {
+	clear:both;
+	text-transform:uppercase;
+	font-size:70%;
+}
+/* Youbricks module */
+.cvbricks {
+	padding:0;
+}
+.cvbricks h2.module_title {
+	text-align:center;
+	font-size:280%;
+	text-transform:uppercase;
+	margin:0 0 30px 0;
+}
+.cvbricks .YouBricks_box_in {
+	padding:0;
+	border:none;
+}
+.cvbricks .YouBricks_content #load_more {
+	height:75px;
+	margin-top:50px;
+}
+.cvbricks .YouBricks_content a#yjbricks_getmore {
+	font-size:160%;
+	line-height:75px;
+	padding:0;
+	text-shadow:none;
+	border:none;
+	width:235px;
+	height:75px;
+	margin:0 auto;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+.cvbricks .YouBricks_content .YouBricks_box_tools,
+.cvbricks .YouBricks_box_in .counters {
+	display:none!important;
+}
+#ybscrollup{
+	line-height:18px;
+}
+/* Module engine */
+.cvengine {
+	padding:65px 0;
+}
+.cvengine h2.module_title {
+	text-align:center;
+	font-size:280%;
+	text-transform:uppercase;
+	margin:0 0 30px 0;
+}
+.cvengine .yjme_item {
+	width:30%;
+	float:left;
+	clear:none;
+	margin:0 60px;
+}
+.cvengine .yjme_item.class0,
+.cvengine .yjme_item.class2 {
+	margin:0;
+}
+.cvengine .yjme_item_in {
+	padding:0px;
+	margin:0;
+	border:none;
+}
+.cvengine .yjme_item div.imageholder {
+	padding:0;
+	margin:0 0 20px 0;
+	border:none;
+	background:none;
+}
+.cvengine .yjme_item a.item_title {
+	line-height:40px;
+	margin:0 0 20px 0;
+	font-size: 140%;
+	text-transform: uppercase;
+}
+.cvengine .yjme_item a.item_readmore {
+	background-size:45px 28px;
+	font-size:130%;
+	padding:20px 60px 20px 20px;
+	border:none;
+	width:auto;
+	height:auto;
+	margin:20px auto;
+	float:left;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+}
+.cvengine .yjme_item a.item_readmore:hover {
+	background-size:45px 28px;
+}
+.cvengine .yjme_item a.item_readmore span {
+	line-height:auto;
+	padding:0;
+	height:auto;
+}
+/* Custom paragraph module */
+.cvcustom h1 {
+	text-align:center;
+	font-size:280%;
+	text-transform:uppercase;
+	margin:0;
+}
+.cvcustom p {
+	display:block;
+	font-size:140%;
+	text-align:center;
+}
+.cvcustom .template_readmore2 {
+	margin:20px auto;
+}
+/* Meet the team */
+.cvengine.team {
+	padding:0;
+}
+.cvengine.team h2.module_title {
+	text-align:center;
+	font-size:280%;
+	margin:0 0 20px 0;
+	text-transform:uppercase;
+}
+.cvengine.team .yjme_item {
+	float:left;
+	clear:none;
+	width:264px;
+}
+.cvengine.team .yjme_item.class1 {
+	margin:0 20px 0 35px;
+}
+.cvengine.team .yjme_item.class2 {
+	margin:0 35px 0 20px;
+}
+.cvengine.team .yjme_item.class0,
+.cvengine.team .yjme_item.class3 {
+	margin:0;
+}
+.cvengine.team .yjme_item div.imageholder {
+	margin:0 auto 30px auto;
+	border-radius:50%;
+	-webkit-border-radius:50%!important;
+	-khtml-border-radius:50%!important;
+	-moz-border-radius:50%!important;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.cvengine.team .yjme_item a.item_title {
+	position:absolute;
+	top:-100px;
+	width:100%;
+	text-transform:uppercase;
+	font-size:120%;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.cvengine.team .yjme_item p.item_intro {
+	text-align:center;
+	font-size: 140%
+}
+.cvengine.team .team_holder {
+	position:absolute;
+	display:block;
+	margin:0 62px;
+	bottom:-150px;
+	width:140px;
+	padding:0;
+	text-align:center;
+	font-size:90%;
+}
+.cvengine.team .team_holder_in {
+	display:block;
+	overflow:hidden;
+	width:140px;
+	margin:0 auto;
+	padding:20px 0;
+	
+}
+.cvengine.team .team_holder .team_button,
+.team_holder .team_button{
+	text-align:center;
+	display:block;
+	background:#3c9ee9;
+	font-size:90%;
+	padding:10px 15px;
+	text-transform:uppercase;
+	width:auto;
+	height:auto;
+	margin:20px auto 0 auto;
+}
+.team_holder .team_button {
+	margin:10px 0;
+	display:table;
+}
+/* Custom map module */
+#yjmap {
+	padding:30px 0 10px 0;
+}
+#yjmap .yjsquare {
+	padding:0;
+}
+#yjmap h1 {
+	text-align:center;
+	font-size:280%;
+	text-transform:uppercase;
+	line-height:30px;
+}
+#yjmap h1 span {
+	font-size:45%;
+	text-transform:none;
+	padding:20px 0;
+	display:block;
+	width:40%;
+	margin:0 auto;
+}
+/* Custom about us module */
+.cvaboutus h2.module_title {
+	text-transform:uppercase;
+}
+.cvaboutus h1 {
+	text-transform:uppercase;
+	font-size:150%;
+}
+.contact_infos p {
+	font-size:120%;
+}
+.contact_infos span {
+	float:left;
+	font-size:115%;
+	padding:0 10px 0 0;
+}
+/* Contact us ajax module*/
+.cvcontactus h2.module_title {
+	text-transform:uppercase;
+}
+.cvcontactus {
+	margin:0 0 0 70px;
+}
+.cvcontactus #yjajaxcontact_box {
+	margin:0;
+}
+.cvcontactus .msg,
+.cvcontactus span.lables {
+	display:none;
+}
+.cvcontactus #first_name,
+.cvcontactus #email,
+.cvcontactus #message {
+	text-transform:uppercase;
+	font-size:70%;
+	border:none!important;
+	padding:15px 10px!important;
+	margin:0 0 20px 0!important;
+}
+.cvcontactus #message {
+	width:450px!important;
+	height:165px;
+	margin:0!important;
+	font-size:80%;
+}
+.cvcontactus .spamcheck label {
+	font-size:100%;
+	text-transform:uppercase;
+	float:left;
+	margin:15px 0 0 0;
+}
+.cvcontactus .spamcheck input {
+	border:none;
+	margin:10px;
+	height:25px;
+}
+.cvcontactus span.submit {
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+	padding:5px 15px;
+	margin:15px 0 0 0;
+}
+.cvcontactus span.submit .submitb {
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+	text-transform:uppercase;
+	padding:0;
+}
+/* Module Styles */
+/* all */
+.yj1,
+.yj2,
+.yj3,
+.yj4,
+.yj5 {
+	margin:10px;
+}
+.yj1,
+.yj2,
+.yj3 {
+	margin:0 10px;
+}
+/* yj2, yj3 */
+.yj2 h2.module_title,
+.yj3 h2.module_title {
+	text-transform:uppercase;
+}
+/* yj4 */
+.yj4 h2.module_title {
+	margin:15px;
+}
+.yj4 .yjsquare_in {
+	padding:0 15px 15px 15px;
+}
+/* yj5 */
+.yj5 h2.module_title {
+	margin:15px;
+}
+.yj5 .yjsquare_in {
+	padding:0 15px 15px 15px;
+}
+/* Additional */
+.button,
+.validate,
+a.readon {
+	padding:10px 15px;
+	line-height:normal;
+	text-transform:uppercase;
+	transition:background 0.3s ease;
+	-webkit-transition:background 0.3s ease;
+	-moz-transition:background 0.3s ease;
+	-o-transition:background 0.3s ease;
+	-ms-transition:background 0.3s ease;
+	height:auto;
+}
+a.readon span {
+	padding:0;
+}
+body.yjsgerror-page #errorpage {
+	box-shadow:none;
+}
+.component .pagetitle {
+	margin:0!important;
+}
+/* Hover effect */
+.yj_hover_effect {
+	position:relative;
+	overflow:hidden;
+}
+.yj_hover_title,
+.yj_hover_intro,
+.yj_hover_more {
+	position:absolute;
+	z-index:1000;
+	padding:0 40px;
+	font-size:140%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display:none;
+	transition:color 0.3s ease;
+	-webkit-transition:color 0.3s ease;
+	-moz-transition:color 0.3s ease;
+	-o-transition:color 0.3s ease;
+	-ms-transition:color 0.3s ease;
+	text-align:left;
+}
+.yj_hover_intro {
+	font-size:100%;
+	line-height:26px;
+}
+.yj_hover_more {
+	font-size:100%;
+}
+div.catItemView .yj_hover_title,
+div.itemView .yj_hover_title,
+div.latestView .yj_hover_title {
+	font-size:250%;
+}
+#k2Container.itemView .yj_hover_intro {
+	text-align:center;
+	font-size:250%;
+	margin-top:45px;
+}
+.yj_hover_effect2 {
+	display:block;
+	overflow:hidden;
+	width:300px;
+	height:300px;
+}
+.yj_hover_more2 {
+	position:absolute;
+	width:96px;
+	height:96px;
+	left:102px;
+	bottom:-96px;
+	z-index:1000;
+	display:block;
+	overflow:hidden;
+}
+/* RTL */
+.yjsgrtl #topmenu_holder,
+.yjsgrtl div.itemComments ul.itemCommentsList li span.commentToolbar,
+.yjsgrtl div.itemComments ul.itemCommentsList li span.commentLink {
+	float:left;
+}
+.yjsgrtl .cvengine .yjme_item a.item_readmore,
+.yjsgrtl .cvcontactus span.submit,
+.yjsgrtl .cvcontactus .spamcheck label,
+.yjsgrtl a.subCategoryMore,
+.yjsgrtl ul.preSocialLinks,
+.yjsgrtl ul.preSocialLinks li,
+.yjsgrtl div.itemTagsBlock span,
+.yjsgrtl div.itemComments ul.itemCommentsList li img,
+.yjsgrtl div.k2TagCloudBlock a,
+.yjsgrtl div.k2LatestCommentsBlock ul li a.lcAvatar img,
+.yjsgrtl .yjk2content a.moduleItemImage {
+	float:right;
+}
+.yjsgrtl div.k2LatestCommentsBlock ul li span.lcComment {
+	clear:none;
+	display:table;
+	padding-left:0;
+}
+.yjsgrtl div.k2TagCloudBlock a {
+	margin:0 0 10px 10px;
+}
+.yjsgrtl div.k2LatestCommentsBlock ul li a.lcAvatar img,
+.yjsgrtl .yjk2content a.moduleItemImage {
+	margin:0 0 0 20px;
+}
+.yjsgrtl div.itemComments ul.itemCommentsList li img {
+	margin:0 0 0 30px;
+}
+.yjsgrtl div.itemComments ul.itemCommentsList li p {
+	margin-left:auto;
+	margin-right:90px;
+}
+.yjsgrtl .contact_infos span {
+	float:right;
+	padding:0 0 0 10px;
+}
+.yjsgrtl .cvcontactus {
+	margin:0 70px 0 0;
+}
+.yjsgrtl .yj_hover_title,
+.yjsgrtl .yj_hover_intro,
+.yjsgrtl .yj_hover_more {
+	text-align:right;
+}
+.yjsgrtl #k2Container.itemListView,
+.yjsgrtl #k2Container.tagView,
+.yjsgrtl #k2Container.latestView,
+.yjsgrtl #k2Container.genericView {
+	padding:0 0 0 45px!important;
+}
+.yjsgrtl #k2Container.itemView,
+.yjsgrtl #k2Container.userView {
+	padding:45px 0 0 45px!important;
+}
+/* Responsive menu */
+#mmenu_holder {
+	text-align:left!important;
+	margin:0 auto 20px auto!important;
+}
+span#yjmm_selectid {
+	color:#fff!important;
+	font-size:120%!important;
+	width:90%!important;
+	padding:0 10px!important;
+	font-weight:normal!important;
+}
