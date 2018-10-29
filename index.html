@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="templates/corpvision/css/yjresponsive.css" type="text/css" />
     <link rel="stylesheet" href="templates/corpvision/css/custom_responsive.css" type="text/css" />
     <link rel="stylesheet" href="templates/corpvision/css/fontfacekits/OpenSans/stylesheet.css" type="text/css" />
-    <link rel="stylesheet" href="templates/corpvision/css/video-js.min.css" type="text/css" />
     <style type="text/css">
         #yjsg2,
         #yjsg3,
@@ -90,12 +89,8 @@
     <script src="templates/corpvision/src/yjresponsive.js" type="text/javascript"></script>
     <script src="templates/corpvision/src/mouseover13.js" type="text/javascript"></script>
     <script src="templates/corpvision/src/sitescripts.js" type="text/javascript"></script>
-    <script src="templates/corpvision/src/video-js/video.min.js" type="text/javascript"></script>
-    <script src="templates/corpvision/src/video-js/vimeo.js" type="text/javascript"></script>
-    <script src="templates/corpvision/src/video-js/youtube.js" type="text/javascript"></script>
     <script src="templates/corpvision/src/styles.js" type="text/javascript"></script>
     <script src="modules/mod_yj_ajcontact/js/lang/en.js" type="text/javascript"></script>
-    <script src="modules/mod_yj_ajcontact/js/formcheck13.js" type="text/javascript"></script>
     <script src="modules/mod_yjis4/src/mod_yjis4.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         window.addEvent('load', function() {
@@ -103,20 +98,6 @@
         });
 
         var getSiteDomain = 'index.html';
-
-        window.addEvent('domready', function() {
-
-            check = new FormCheck('yjajaxcontact', {
-                display: {
-                    fadeDuration: 500,
-                    errorsLocation: 1,
-                    indicateErrors: 1,
-                    tipsOffsetX: -260,
-
-                    showErrors: 1
-                }
-            });
-        });
 
         var modpath = 'index.html';
         window.addEvent('domready', function() {
